@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a  ",
+    "bac",
+    "def"
+  ],
+  "key": {
+    "a": {
+      "item": "gunsmith_cognitis:rifledbarrel"
+    },
+    "b": {
+      "item": "minecraft:gunpowder"
+    },
+    "c": {
+      "item": "gunsmith_cognitis:percussioncap_mechanism"
+    },
+    "d": {
+      "tag": "gunsmith_cognitis:blueprint_percussion_entry"
+    },
+    "e": {
+      "item": "gunsmith_cognitis:percussioncapgunkit"
+    },
+    "f": {
+      "tag": "minecraft:logs"
+    }
+  },
+  "result": {
+    "item": "gunsmith_cognitis:pattern_1851minierifle",
+    "count": 1
+  }
+}

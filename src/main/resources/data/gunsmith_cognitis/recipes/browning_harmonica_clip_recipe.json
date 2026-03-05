@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bbb",
+    " cd"
+  ],
+  "key": {
+    "a": {
+      "item": "gunsmith_cognitis:musket_ball_projectile"
+    },
+    "b": {
+      "item": "minecraft:iron_ingot"
+    },
+    "c": {
+      "item": "minecraft:gunpowder"
+    },
+    "d": {
+      "tag": "gunsmith_cognitis:blueprint_percussion_mastery"
+    }
+  },
+  "result": {
+    "item": "gunsmith_cognitis:browning_harmonica_clip",
+    "count": 2
+  }
+}

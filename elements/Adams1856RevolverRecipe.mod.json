@@ -1,0 +1,48 @@
+{
+  "_fv": 60,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Rifledbarrel"
+      },
+      {
+        "value": "CUSTOM:AdvancedRevolversBlueprint"
+      },
+      {
+        "value": "Items.REDSTONE"
+      },
+      {
+        "value": "CUSTOM:Ramrod"
+      },
+      {
+        "value": "CUSTOM:RevolverDrum"
+      },
+      {
+        "value": "CUSTOM:PercussioncapMechanism"
+      },
+      {
+        "value": "CUSTOM:PaperCartidgeSmallAmmo"
+      },
+      {
+        "value": "Items.COAL"
+      },
+      {
+        "value": "CUSTOM:Percussioncapgunkit"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Adams1856Revolver"
+    },
+    "name": "adams_1856_revolver_recipe",
+    "namespace": "mod"
+  }
+}

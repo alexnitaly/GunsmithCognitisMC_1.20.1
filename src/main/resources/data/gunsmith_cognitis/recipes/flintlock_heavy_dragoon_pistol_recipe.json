@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab ",
+    "acd",
+    "efg"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:gunpowder"
+    },
+    "b": {
+      "tag": "gunsmith_cognitis:blueprint_flintlock_intermediate"
+    },
+    "c": {
+      "item": "gunsmith_cognitis:smoothborebarrel"
+    },
+    "d": {
+      "item": "gunsmith_cognitis:flintlock_mechanism"
+    },
+    "e": {
+      "item": "minecraft:gold_ingot"
+    },
+    "f": {
+      "item": "gunsmith_cognitis:flintlockgunkit"
+    },
+    "g": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "result": {
+    "item": "gunsmith_cognitis:flintlock_heavy_dragoon_pistol",
+    "count": 1
+  }
+}

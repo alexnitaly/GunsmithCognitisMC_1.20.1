@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab ",
+    "cde",
+    " cf"
+  ],
+  "key": {
+    "a": {
+      "item": "gunsmith_cognitis:nock_volley_gun_front_component"
+    },
+    "b": {
+      "tag": "gunsmith_cognitis:blueprint_flintlock_mastery"
+    },
+    "c": {
+      "item": "gunsmith_cognitis:flintlockgunkit"
+    },
+    "d": {
+      "item": "minecraft:iron_ingot"
+    },
+    "e": {
+      "item": "gunsmith_cognitis:flintlock_mechanism"
+    },
+    "f": {
+      "tag": "minecraft:logs"
+    }
+  },
+  "result": {
+    "item": "gunsmith_cognitis:nock_volley_gun",
+    "count": 1
+  }
+}

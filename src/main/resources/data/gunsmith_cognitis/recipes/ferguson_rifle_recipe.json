@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab ",
+    "cad",
+    "ecf"
+  ],
+  "key": {
+    "a": {
+      "item": "gunsmith_cognitis:rifledbarrel"
+    },
+    "b": {
+      "tag": "gunsmith_cognitis:blueprint_flintlock_mastery"
+    },
+    "c": {
+      "item": "gunsmith_cognitis:flintlockgunkit"
+    },
+    "d": {
+      "item": "gunsmith_cognitis:flintlock_mechanism"
+    },
+    "e": {
+      "item": "minecraft:gold_nugget"
+    },
+    "f": {
+      "tag": "minecraft:logs"
+    }
+  },
+  "result": {
+    "item": "gunsmith_cognitis:flintlock_rifled_carbine",
+    "count": 1
+  }
+}

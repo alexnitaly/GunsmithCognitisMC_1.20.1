@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab ",
+    "cad",
+    "efg"
+  ],
+  "key": {
+    "a": {
+      "item": "gunsmith_cognitis:crude_bigborebarrel"
+    },
+    "b": {
+      "tag": "gunsmith_cognitis:blueprint_matchlock_intermediate"
+    },
+    "c": {
+      "item": "minecraft:gunpowder"
+    },
+    "d": {
+      "item": "minecraft:string"
+    },
+    "e": {
+      "item": "gunsmith_cognitis:matchlockgunkit"
+    },
+    "f": {
+      "item": "minecraft:lever"
+    },
+    "g": {
+      "tag": "minecraft:logs"
+    }
+  },
+  "result": {
+    "item": "gunsmith_cognitis:matchlock_blunderbuss",
+    "count": 1
+  }
+}

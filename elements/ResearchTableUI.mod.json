@@ -1,0 +1,194 @@
+{
+  "_fv": 60,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 325,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "name": "button_research",
+          "text": "Research",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ResearchTableResearchButton"
+          },
+          "width": 67,
+          "height": 20,
+          "x": 177,
+          "y": 174
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_reprint",
+          "text": "Reprint",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ResearchTableButtonReprint"
+          },
+          "width": 61,
+          "height": 20,
+          "x": 303,
+          "y": 174
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_tech_name",
+          "text": {
+            "fixedValue": "(TECH_NAME)",
+            "name": "ResearchTableTechName"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 58,
+          "y": 72
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_next",
+          "text": "Next",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Techbuttonnext"
+          },
+          "width": 46,
+          "height": 20,
+          "x": 322,
+          "y": 44
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_last",
+          "text": "Last",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Techbuttonlast"
+          },
+          "width": 46,
+          "height": 20,
+          "x": 271,
+          "y": 44
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_description",
+          "text": {
+            "fixedValue": "(DESCRIPTION)",
+            "name": "ResearchTableTechDescription"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 58,
+          "y": 87
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_requirements",
+          "text": {
+            "fixedValue": "(REQUIREMENTS)",
+            "name": "ResearchTableTechCost"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 58,
+          "y": 136
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_current_tech",
+          "text": {
+            "fixedValue": "(CURRENT_TECH)",
+            "name": "ResearchTableCurrentTechValue"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 58,
+          "y": 45
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_cost",
+          "text": {
+            "fixedValue": "Requirements:"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 58,
+          "y": 124
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_1_ink_paper",
+          "text": {
+            "fixedValue": "Ink + Paper"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 306,
+          "y": 163
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_ink_sack_and_paper",
+          "text": {
+            "fixedValue": "Ink Sack and Paper"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 58,
+          "y": 147
+        }
+      }
+    ],
+    "onOpen": {
+      "name": "ResearchTableUIThisGUIIsOpenedCheck"
+    },
+    "gridSettings": {
+      "sx": 16,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

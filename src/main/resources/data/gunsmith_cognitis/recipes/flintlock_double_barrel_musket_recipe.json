@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a  ",
+    "bac",
+    "dce"
+  ],
+  "key": {
+    "a": {
+      "item": "gunsmith_cognitis:double_barrels_part"
+    },
+    "b": {
+      "item": "gunsmith_cognitis:flintlockgunkit"
+    },
+    "c": {
+      "item": "gunsmith_cognitis:flintlock_mechanism"
+    },
+    "d": {
+      "tag": "gunsmith_cognitis:blueprint_flintlock_intermediate"
+    },
+    "e": {
+      "tag": "minecraft:logs"
+    }
+  },
+  "result": {
+    "item": "gunsmith_cognitis:flintlock_double_barrel_musket",
+    "count": 1
+  }
+}

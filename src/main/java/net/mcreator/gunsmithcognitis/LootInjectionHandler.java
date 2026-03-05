@@ -1,0 +1,206 @@
+package net.mcreator.gunsmithcognitis;
+
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.event.LootTableLoadEvent;
+import net.minecraft.world.level.storage.loot.LootPool;
+import net.minecraft.world.level.storage.loot.entries.LootItem;
+import net.minecraft.world.level.storage.loot.entries.TagEntry;
+import net.minecraft.world.level.storage.loot.entries.EmptyLootItem;
+import net.minecraft.world.level.storage.loot.providers.number.UniformGenerator;
+import net.minecraft.world.level.storage.loot.functions.SetItemCountFunction;
+import net.minecraft.world.item.Items;
+import net.minecraft.world.item.Item;
+import net.minecraft.tags.TagKey;
+import net.minecraft.core.registries.Registries;
+import net.minecraft.resources.ResourceLocation;
+import net.mcreator.gunsmithcognitis.init.GunsmithCognitisModItems;
+
+@Mod.EventBusSubscriber
+public class LootInjectionHandler {
+
+    @SubscribeEvent
+    public static void onLootLoad(LootTableLoadEvent event) {
+        ResourceLocation name = event.getName();
+        
+        // Define our custom Tags (Updated to 1.20.1 Registries.ITEM)
+        TagKey<Item> MATCHLOCKS = TagKey.create(Registries.ITEM, new ResourceLocation("gunsmith_cognitis", "matchlock_firearm"));
+        TagKey<Item> WHEELLOCKS = TagKey.create(Registries.ITEM, new ResourceLocation("gunsmith_cognitis", "wheellock_firearm"));
+        TagKey<Item> FLINTLOCKS = TagKey.create(Registries.ITEM, new ResourceLocation("gunsmith_cognitis", "flintlock_firearm"));
+
+        // VILLAGES & DUNGEONS
+        if (name.toString().equals("minecraft:chests/village/village_weaponsmith") || 
+            name.toString().equals("minecraft:chests/village/village_fletcher") || 
+            name.toString().equals("minecraft:chests/simple_dungeon")) {
+            
+            // Matchlock Tag
+            event.getTable().addPool(LootPool.lootPool().setRolls(UniformGenerator.between(1, 1))
+                .add(TagEntry.expandTag(MATCHLOCKS).setWeight(1))
+                .add(EmptyLootItem.emptyItem().setWeight(9)).build());
+                
+            // Matchlock Intermediate Blueprint
+            event.getTable().addPool(LootPool.lootPool().setRolls(UniformGenerator.between(1, 1))
+                .add(LootItem.lootTableItem(GunsmithCognitisModItems.MATCHLOCK_BLUEPRINT_INTERMEDIATE.get()).setWeight(1))
+                .add(EmptyLootItem.emptyItem().setWeight(11)).build());
+
+            // Gunpowder
+            event.getTable().addPool(LootPool.lootPool().setRolls(UniformGenerator.between(1, 1))
+                .add(LootItem.lootTableItem(Items.GUNPOWDER).setWeight(1)
+                    .apply(SetItemCountFunction.setCount(UniformGenerator.between(1, 4))))
+                .add(EmptyLootItem.emptyItem().setWeight(3)).build());
+           
+            // Pikes and Halberds
+            event.getTable().addPool(LootPool.lootPool().setRolls(UniformGenerator.between(1, 1))
+                .add(LootItem.lootTableItem(GunsmithCognitisModItems.IRONPIKE.get()).setWeight(1))
+                .add(LootItem.lootTableItem(GunsmithCognitisModItems.IRONHALBERD.get()).setWeight(1))
+                .add(EmptyLootItem.emptyItem().setWeight(5)).build());
+        }
+
+        // MANSIONS, OUTPOSTS
+        if (name.toString().equals("minecraft:chests/woodland_mansion") || 
+            name.toString().equals("minecraft:chests/pillager_outpost") || 
+            name.toString().equals("minecraft:chests/stronghold_corridor")) {
+            
+            // Wheellock Tag
+            event.getTable().addPool(LootPool.lootPool().setRolls(UniformGenerator.between(1, 1))
+                .add(TagEntry.expandTag(WHEELLOCKS).setWeight(2))
+                .add(EmptyLootItem.emptyItem().setWeight(7)).build());
+
+            // Flintlock Entry Blueprint
+            event.getTable().addPool(LootPool.lootPool().setRolls(UniformGenerator.between(1, 1))
+                .add(LootItem.lootTableItem(GunsmithCognitisModItems.FLINTLOCK_BLUEPRINT.get()).setWeight(1))
+                .add(EmptyLootItem.emptyItem().setWeight(13)).build());
+
+            // Wheellock Mastery Blueprint
+            event.getTable().addPool(LootPool.lootPool().setRolls(UniformGenerator.between(1, 1))
+                .add(LootItem.lootTableItem(GunsmithCognitisModItems.WHEELLOCK_BLUEPRINT_MASTERY.get()).setWeight(1))
+                .add(EmptyLootItem.emptyItem().setWeight(9)).build());
+        }
+
+        // STRONGHOLD
+        if (name.toString().equals("minecraft:chests/stronghold_corridor")) {
+            
+            // Wheellock Tag (Re-added from your original code)
+            event.getTable().addPool(LootPool.lootPool().setRolls(UniformGenerator.between(1, 1))
+                .add(TagEntry.expandTag(WHEELLOCKS).setWeight(2))
+                .add(EmptyLootItem.emptyItem().setWeight(5)).build());
+            
+            // Flintlocks
+            event.getTable().addPool(LootPool.lootPool().setRolls(UniformGenerator.between(1, 1))
+                .add(TagEntry.expandTag(FLINTLOCKS).setWeight(1))
+                .add(EmptyLootItem.emptyItem().setWeight(5)).build());
+
+            // Cartridges
+            event.getTable().addPool(LootPool.lootPool().setRolls(UniformGenerator.between(1, 1))
+                .add(LootItem.lootTableItem(GunsmithCognitisModItems.PAPER_CARTIDGE_AMMO.get()).setWeight(1))
+                .add(LootItem.lootTableItem(GunsmithCognitisModItems.PAPER_CARTIDGE_SMALL_AMMO.get()).setWeight(1))
+                .add(EmptyLootItem.emptyItem().setWeight(3)) 
+                .apply(SetItemCountFunction.setCount(UniformGenerator.between(1, 8))).build());
+
+            // Flintlock Blueprint
+            event.getTable().addPool(LootPool.lootPool().setRolls(UniformGenerator.between(1, 1))
+                .add(LootItem.lootTableItem(GunsmithCognitisModItems.FLINTLOCK_BLUEPRINT.get()).setWeight(1))
+                .add(EmptyLootItem.emptyItem().setWeight(7)).build());
+
+            // Cavalry Sabre
+            event.getTable().addPool(LootPool.lootPool().setRolls(UniformGenerator.between(1, 1))
+                .add(LootItem.lootTableItem(GunsmithCognitisModItems.CAVALRY_SABRE.get()).setWeight(1))
+                .add(EmptyLootItem.emptyItem().setWeight(5)).build());
+
+            // Pikes and Halberds
+            event.getTable().addPool(LootPool.lootPool().setRolls(UniformGenerator.between(1, 1))
+                .add(LootItem.lootTableItem(GunsmithCognitisModItems.IRONPIKE.get()).setWeight(1))
+                .add(LootItem.lootTableItem(GunsmithCognitisModItems.IRONHALBERD.get()).setWeight(1))
+                .add(EmptyLootItem.emptyItem().setWeight(3)).build());
+        }
+        
+        // DESERT PYRAMID
+        if (name.toString().equals("minecraft:chests/desert_pyramid")) {
+            // Jezail
+            event.getTable().addPool(LootPool.lootPool().setRolls(UniformGenerator.between(1, 1))
+                .add(LootItem.lootTableItem(GunsmithCognitisModItems.JEZAILMUSKET.get()).setWeight(1))
+                .add(EmptyLootItem.emptyItem().setWeight(2)).build());
+
+            // Flintlock Intermediate Blueprint
+            event.getTable().addPool(LootPool.lootPool().setRolls(UniformGenerator.between(1, 1))
+                .add(LootItem.lootTableItem(GunsmithCognitisModItems.FLINTLOCK_BLUEPRINT_INTERMEDIATE.get()).setWeight(1))
+                .add(EmptyLootItem.emptyItem().setWeight(7)).build());
+        }
+
+        // JUNGLE TEMPLE
+        if (name.toString().equals("minecraft:chests/jungle_temple")) {
+            // Tanegashima
+            event.getTable().addPool(LootPool.lootPool().setRolls(UniformGenerator.between(1, 1))
+                .add(LootItem.lootTableItem(GunsmithCognitisModItems.TANEGASHIMA.get()).setWeight(1))
+                .add(EmptyLootItem.emptyItem().setWeight(2)).build());
+                
+            // DIVINE FIVE THUNDER MACHINE
+            event.getTable().addPool(LootPool.lootPool().setRolls(UniformGenerator.between(1, 1))
+                .add(LootItem.lootTableItem(GunsmithCognitisModItems.DIVINE_FIVE_THUNDER_MACHINE.get()).setWeight(1))
+                .add(EmptyLootItem.emptyItem().setWeight(5)).build());
+
+            // Iron Pike
+            event.getTable().addPool(LootPool.lootPool().setRolls(UniformGenerator.between(1, 1))
+                .add(LootItem.lootTableItem(GunsmithCognitisModItems.IRONPIKE.get()).setWeight(3))
+                .add(EmptyLootItem.emptyItem().setWeight(5)).build());
+        }
+
+        // SHIPWRECKS
+        if (name.toString().equals("minecraft:chests/shipwreck_treasure")) {
+            // Matchlocks
+            event.getTable().addPool(LootPool.lootPool().setRolls(UniformGenerator.between(1, 1))
+                .add(TagEntry.expandTag(MATCHLOCKS).setWeight(1))
+                .add(EmptyLootItem.emptyItem().setWeight(4)).build());
+
+            // Cavalry Sabre
+            event.getTable().addPool(LootPool.lootPool().setRolls(UniformGenerator.between(1, 1))
+                .add(LootItem.lootTableItem(GunsmithCognitisModItems.CAVALRY_SABRE.get()).setWeight(1))
+                .add(EmptyLootItem.emptyItem().setWeight(5)).build());
+           
+            // Flintlocks
+            event.getTable().addPool(LootPool.lootPool().setRolls(UniformGenerator.between(1, 1))
+                .add(TagEntry.expandTag(FLINTLOCKS).setWeight(1))
+                .add(EmptyLootItem.emptyItem().setWeight(6)).build());
+
+            // Cartridges
+            event.getTable().addPool(LootPool.lootPool().setRolls(UniformGenerator.between(1, 1))
+                .add(LootItem.lootTableItem(GunsmithCognitisModItems.PAPER_CARTIDGE_AMMO.get()).setWeight(1))
+                .add(LootItem.lootTableItem(GunsmithCognitisModItems.PAPER_CARTIDGE_SMALL_AMMO.get()).setWeight(1))
+                .add(EmptyLootItem.emptyItem().setWeight(4)) 
+                .apply(SetItemCountFunction.setCount(UniformGenerator.between(1, 8))).build());
+
+            // Flintlock Entry Blueprint
+            event.getTable().addPool(LootPool.lootPool().setRolls(UniformGenerator.between(1, 1))
+                .add(LootItem.lootTableItem(GunsmithCognitisModItems.FLINTLOCK_BLUEPRINT.get()).setWeight(1))
+                .add(EmptyLootItem.emptyItem().setWeight(5)).build());
+        }
+
+        // BASTIONS & FORTRESSES
+        if (name.toString().equals("minecraft:chests/bastion_treasure") || 
+            name.toString().equals("minecraft:chests/nether_bridge_fortress")) {
+            
+            // Flintlocks
+            event.getTable().addPool(LootPool.lootPool().setRolls(UniformGenerator.between(1, 1))
+                .add(TagEntry.expandTag(FLINTLOCKS).setWeight(1))
+                .add(EmptyLootItem.emptyItem().setWeight(3)).build());
+
+            // Cartridges
+            event.getTable().addPool(LootPool.lootPool().setRolls(UniformGenerator.between(1, 1))
+                .add(LootItem.lootTableItem(GunsmithCognitisModItems.PAPER_CARTIDGE_AMMO.get()).setWeight(1))
+                .add(LootItem.lootTableItem(GunsmithCognitisModItems.PAPER_CARTIDGE_SMALL_AMMO.get()).setWeight(1))
+                .add(EmptyLootItem.emptyItem().setWeight(2)) 
+                .apply(SetItemCountFunction.setCount(UniformGenerator.between(1, 8))).build());
+
+            // Pikes and Halberds
+            event.getTable().addPool(LootPool.lootPool().setRolls(UniformGenerator.between(1, 1))
+                .add(LootItem.lootTableItem(GunsmithCognitisModItems.GOLDPIKE.get()).setWeight(1))
+                .add(LootItem.lootTableItem(GunsmithCognitisModItems.GOLDHALBERD.get()).setWeight(1))
+                .add(EmptyLootItem.emptyItem().setWeight(3)).build());
+            
+            // Flintlock Mastery Blueprint
+            event.getTable().addPool(LootPool.lootPool().setRolls(UniformGenerator.between(1, 1))
+                .add(LootItem.lootTableItem(GunsmithCognitisModItems.FLINTLOCK_BLUEPRINT_MASTERY.get()).setWeight(1))
+                .add(EmptyLootItem.emptyItem().setWeight(3)).build());
+        }
+    }
+}

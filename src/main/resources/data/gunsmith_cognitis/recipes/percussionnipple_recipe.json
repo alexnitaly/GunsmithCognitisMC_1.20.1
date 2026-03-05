@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:gold_nugget"
+    },
+    "b": {
+      "item": "gunsmith_cognitis:fulminatepowder"
+    }
+  },
+  "result": {
+    "item": "gunsmith_cognitis:percussionnipple",
+    "count": 3
+  }
+}

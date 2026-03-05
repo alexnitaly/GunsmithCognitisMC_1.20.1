@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab ",
+    "bc ",
+    " dc"
+  ],
+  "key": {
+    "a": {
+      "item": "gunsmith_cognitis:crude_smoothborebarrel"
+    },
+    "b": {
+      "item": "minecraft:string"
+    },
+    "c": {
+      "item": "minecraft:stick"
+    },
+    "d": {
+      "item": "gunsmith_cognitis:matchlockgunkit"
+    }
+  },
+  "result": {
+    "item": "gunsmith_cognitis:handgunne",
+    "count": 1
+  }
+}

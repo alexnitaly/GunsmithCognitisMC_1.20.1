@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab ",
+    "cad",
+    " ef"
+  ],
+  "key": {
+    "a": {
+      "item": "gunsmith_cognitis:rifledbarrel"
+    },
+    "b": {
+      "tag": "gunsmith_cognitis:blueprint_wheellock_mastery"
+    },
+    "c": {
+      "item": "minecraft:gunpowder"
+    },
+    "d": {
+      "item": "minecraft:redstone"
+    },
+    "e": {
+      "item": "gunsmith_cognitis:wheellockgunkit"
+    },
+    "f": {
+      "tag": "minecraft:logs"
+    }
+  },
+  "result": {
+    "item": "gunsmith_cognitis:wheellock_musket",
+    "count": 1
+  }
+}

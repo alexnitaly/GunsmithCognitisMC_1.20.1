@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab",
+    "cd",
+    "ef"
+  ],
+  "key": {
+    "a": {
+      "item": "gunsmith_cognitis:rifledbarrel"
+    },
+    "b": {
+      "tag": "gunsmith_cognitis:blueprint_percussion_intermediate"
+    },
+    "c": {
+      "item": "gunsmith_cognitis:revolver_drum"
+    },
+    "d": {
+      "item": "gunsmith_cognitis:percussioncap_mechanism"
+    },
+    "e": {
+      "tag": "minecraft:planks"
+    },
+    "f": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "gunsmith_cognitis:colt_peterson_1836",
+    "count": 1
+  }
+}

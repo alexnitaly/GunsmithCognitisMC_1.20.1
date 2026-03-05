@@ -1,0 +1,61 @@
+{
+  "_fv": 60,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "matchlock_snaphance_musket",
+    "customModelName": "Ranged item",
+    "customProperties": {},
+    "states": [],
+    "name": "Matchlock Snaphance Musket",
+    "rarity": "COMMON",
+    "creativeTab": {
+      "value": "CUSTOM:GunsmithCognitisTab"
+    },
+    "stackSize": 1,
+    "enchantability": 0,
+    "useDuration": 72000,
+    "toolType": 0.0,
+    "damageCount": 91,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInformation": {
+      "fixedValue": [
+        "Matchlock Tier: Three gunpowder and musket balls to load."
+      ]
+    },
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "enableRanged": true,
+    "shootConstantly": false,
+    "projectile": {
+      "value": "CUSTOM:MatchlockSnaphanceMusketProjectile"
+    },
+    "onRangedItemUsed": {
+      "name": "MatchlockSnaphanceMusketRangedItemUsed"
+    },
+    "rangedUseCondition": {
+      "name": "MatchlockSnaphanceMusketCanUseRangedItem"
+    },
+    "isFood": false,
+    "nutritionalValue": 0,
+    "saturation": 0.30000001192092896,
+    "eatResultItem": {
+      "value": ""
+    },
+    "isMeat": false,
+    "isAlwaysEdible": false,
+    "animation": "none"
+  }
+}

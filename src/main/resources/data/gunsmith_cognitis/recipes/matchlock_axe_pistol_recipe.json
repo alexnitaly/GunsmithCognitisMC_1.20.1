@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcd",
+    "efg"
+  ],
+  "key": {
+    "a": {
+      "tag": "gunsmith_cognitis:blueprint_matchlock_mastery"
+    },
+    "b": {
+      "item": "minecraft:iron_axe"
+    },
+    "c": {
+      "item": "gunsmith_cognitis:smoothborebarrel"
+    },
+    "d": {
+      "item": "minecraft:string"
+    },
+    "e": {
+      "item": "minecraft:gunpowder"
+    },
+    "f": {
+      "item": "gunsmith_cognitis:matchlockgunkit"
+    },
+    "g": {
+      "tag": "minecraft:logs"
+    }
+  },
+  "result": {
+    "item": "gunsmith_cognitis:matchlock_axe_pistol",
+    "count": 1
+  }
+}

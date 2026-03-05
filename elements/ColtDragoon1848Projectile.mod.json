@@ -1,0 +1,22 @@
+{
+  "_fv": 60,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "CUSTOM:HeavyMusketBallProjectile"
+    },
+    "showParticles": false,
+    "actionSound": {
+      "value": "CUSTOM:gun_shot_heavy"
+    },
+    "igniteFire": false,
+    "power": 3.6,
+    "damage": 1.8,
+    "knockback": 0,
+    "entityModel": "Default",
+    "customModelTexture": "",
+    "onHitsBlock": {
+      "name": "ProjectileHitsBlockGlassBlock"
+    }
+  }
+}

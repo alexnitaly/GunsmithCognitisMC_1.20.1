@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "def"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:gunpowder"
+    },
+    "b": {
+      "item": "gunsmith_cognitis:smoothborebarrel"
+    },
+    "c": {
+      "item": "gunsmith_cognitis:flintlock_mechanism"
+    },
+    "d": {
+      "tag": "gunsmith_cognitis:blueprint_flintlock_entry"
+    },
+    "e": {
+      "item": "gunsmith_cognitis:flintlockgunkit"
+    },
+    "f": {
+      "tag": "minecraft:logs"
+    }
+  },
+  "result": {
+    "item": "gunsmith_cognitis:flintlock_pistol",
+    "count": 1
+  }
+}

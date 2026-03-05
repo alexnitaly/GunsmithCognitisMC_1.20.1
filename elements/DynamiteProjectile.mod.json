@@ -1,0 +1,22 @@
+{
+  "_fv": 60,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "CUSTOM:Dynamite"
+    },
+    "showParticles": true,
+    "actionSound": {
+      "value": "entity.tnt.primed"
+    },
+    "igniteFire": false,
+    "power": 1.1,
+    "damage": 1.0,
+    "knockback": 0,
+    "entityModel": "Default",
+    "customModelTexture": "",
+    "onFlyingTick": {
+      "name": "DynamiteWhileProjectileFlyingTick"
+    }
+  }
+}

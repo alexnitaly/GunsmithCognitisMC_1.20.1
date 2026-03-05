@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "bdb",
+    "eb "
+  ],
+  "key": {
+    "a": {
+      "tag": "gunsmith_cognitis:blueprint_matchlock_intermediate"
+    },
+    "b": {
+      "item": "minecraft:gunpowder"
+    },
+    "c": {
+      "item": "minecraft:string"
+    },
+    "d": {
+      "item": "minecraft:sand"
+    },
+    "e": {
+      "item": "minecraft:paper"
+    }
+  },
+  "result": {
+    "item": "gunsmith_cognitis:hand_bomb",
+    "count": 1
+  }
+}

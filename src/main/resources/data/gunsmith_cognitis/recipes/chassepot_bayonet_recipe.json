@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "  a",
+    " a ",
+    "bc "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:iron_ingot"
+    },
+    "b": {
+      "item": "minecraft:iron_nugget"
+    },
+    "c": {
+      "item": "gunsmith_cognitis:percussioncap_blueprint"
+    }
+  },
+  "result": {
+    "item": "gunsmith_cognitis:chassepot_bayonet",
+    "count": 1
+  }
+}

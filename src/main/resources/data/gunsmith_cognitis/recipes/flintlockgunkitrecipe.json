@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " ab",
+    "cdc",
+    "be "
+  ],
+  "key": {
+    "a": {
+      "item": "gunsmith_cognitis:flintlock_mechanism"
+    },
+    "b": {
+      "item": "minecraft:iron_ingot"
+    },
+    "c": {
+      "item": "minecraft:gunpowder"
+    },
+    "d": {
+      "tag": "gunsmith_cognitis:blueprint_flintlock_entry"
+    },
+    "e": {
+      "item": "minecraft:lever"
+    }
+  },
+  "result": {
+    "item": "gunsmith_cognitis:flintlockgunkit",
+    "count": 1
+  }
+}

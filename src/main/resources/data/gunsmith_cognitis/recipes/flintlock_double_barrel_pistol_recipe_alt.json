@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "dce"
+  ],
+  "key": {
+    "a": {
+      "item": "gunsmith_cognitis:flintlockgunkit"
+    },
+    "b": {
+      "item": "gunsmith_cognitis:double_barrels_part"
+    },
+    "c": {
+      "item": "gunsmith_cognitis:flintlock_mechanism"
+    },
+    "d": {
+      "tag": "gunsmith_cognitis:blueprint_flintlock_intermediate"
+    },
+    "e": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "result": {
+    "item": "gunsmith_cognitis:flintlock_double_barrel_pistol",
+    "count": 1
+  }
+}

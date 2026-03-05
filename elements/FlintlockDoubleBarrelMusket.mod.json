@@ -1,0 +1,60 @@
+{
+  "_fv": 60,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "flintlock_double_barrel_musket_iron",
+    "customModelName": "Ranged item",
+    "customProperties": {},
+    "states": [],
+    "name": "Flintlock Double Barrel Musket",
+    "rarity": "COMMON",
+    "creativeTab": {
+      "value": "CUSTOM:GunsmithCognitisFlintlockTab"
+    },
+    "stackSize": 1,
+    "enchantability": 0,
+    "useDuration": 72000,
+    "toolType": 0.0,
+    "damageCount": 192,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInformation": {
+      "fixedValue": [
+        "Flintlock tier: Requires gunpowder and musket ball OR a paper cartidge to load."
+      ]
+    },
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "enableRanged": true,
+    "shootConstantly": false,
+    "projectile": {
+      "value": "CUSTOM:FlintlockDoubleBarrelMusketProjectile"
+    },
+    "onRangedItemUsed": {
+      "name": "FlintlockDoubleBarrelMusketRangedItemUsed"
+    },
+    "rangedUseCondition": {
+      "name": "FlintlockDoubleBarrelMusketCanUseRangedItem"
+    },
+    "isFood": false,
+    "nutritionalValue": 0,
+    "saturation": 0.30000001192092896,
+    "eatResultItem": {
+      "value": ""
+    },
+    "isMeat": false,
+    "isAlwaysEdible": false,
+    "animation": "none"
+  }
+}

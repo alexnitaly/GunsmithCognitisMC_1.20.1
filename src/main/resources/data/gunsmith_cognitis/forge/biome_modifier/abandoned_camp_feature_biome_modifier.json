@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "plains",
+    "sunflower_plains"
+  ],
+  "features": "gunsmith_cognitis:abandoned_camp_feature",
+  "step": "surface_structures"
+}

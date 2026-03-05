@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "dae",
+    "dfg"
+  ],
+  "key": {
+    "a": {
+      "item": "gunsmith_cognitis:smoothborebarrel"
+    },
+    "b": {
+      "item": "minecraft:chain"
+    },
+    "c": {
+      "tag": "gunsmith_cognitis:blueprint_matchlock_mastery"
+    },
+    "d": {
+      "item": "minecraft:gunpowder"
+    },
+    "e": {
+      "item": "minecraft:flint_and_steel"
+    },
+    "f": {
+      "item": "gunsmith_cognitis:matchlockgunkit"
+    },
+    "g": {
+      "tag": "minecraft:logs"
+    }
+  },
+  "result": {
+    "item": "gunsmith_cognitis:matchlock_snaphance_musket",
+    "count": 1
+  }
+}

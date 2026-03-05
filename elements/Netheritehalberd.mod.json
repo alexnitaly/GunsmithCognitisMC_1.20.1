@@ -1,0 +1,34 @@
+{
+  "_fv": 60,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Axe",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "netherite_halberd",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Netherite halberd",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTab": {
+      "value": "CUSTOM:GunsmithCognitisMelee"
+    },
+    "harvestLevel": 4,
+    "efficiency": 9.0,
+    "attackSpeed": 0.6,
+    "enchantability": 15,
+    "damageVsEntity": 9.0,
+    "usageCount": 2031,
+    "blocksAffected": [],
+    "repairItems": [
+      {
+        "value": "Items.NETHERITE_INGOT"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

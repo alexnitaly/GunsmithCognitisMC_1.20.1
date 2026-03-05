@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "gunsmith_cognitis:dynamite"
+    }
+  },
+  "result": {
+    "item": "minecraft:tnt",
+    "count": 1
+  }
+}

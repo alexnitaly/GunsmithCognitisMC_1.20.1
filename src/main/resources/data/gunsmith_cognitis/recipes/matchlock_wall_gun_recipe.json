@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "bad",
+    "efg"
+  ],
+  "key": {
+    "a": {
+      "item": "gunsmith_cognitis:crude_bigborebarrel"
+    },
+    "b": {
+      "item": "minecraft:copper_ingot"
+    },
+    "c": {
+      "tag": "gunsmith_cognitis:blueprint_matchlock_intermediate"
+    },
+    "d": {
+      "item": "minecraft:string"
+    },
+    "e": {
+      "item": "minecraft:gunpowder"
+    },
+    "f": {
+      "item": "gunsmith_cognitis:matchlockgunkit"
+    },
+    "g": {
+      "tag": "minecraft:logs"
+    }
+  },
+  "result": {
+    "item": "gunsmith_cognitis:matchlock_wall_gun",
+    "count": 1
+  }
+}

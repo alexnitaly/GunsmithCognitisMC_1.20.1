@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a  ",
+    "bac",
+    "def"
+  ],
+  "key": {
+    "a": {
+      "item": "gunsmith_cognitis:rifledbarrel"
+    },
+    "b": {
+      "item": "minecraft:iron_ingot"
+    },
+    "c": {
+      "item": "gunsmith_cognitis:bolt_mechanism"
+    },
+    "d": {
+      "tag": "gunsmith_cognitis:blueprint_percussion_intermediate"
+    },
+    "e": {
+      "item": "gunsmith_cognitis:percussioncapgunkit"
+    },
+    "f": {
+      "tag": "minecraft:logs"
+    }
+  },
+  "result": {
+    "item": "gunsmith_cognitis:dreyse_needle_gun",
+    "count": 1
+  }
+}

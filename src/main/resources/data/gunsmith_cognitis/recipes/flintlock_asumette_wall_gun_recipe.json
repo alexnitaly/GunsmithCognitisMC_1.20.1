@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab ",
+    "cad",
+    "cef"
+  ],
+  "key": {
+    "a": {
+      "item": "gunsmith_cognitis:rifledbarrel"
+    },
+    "b": {
+      "tag": "gunsmith_cognitis:blueprint_flintlock_intermediate"
+    },
+    "c": {
+      "item": "minecraft:iron_ingot"
+    },
+    "d": {
+      "item": "gunsmith_cognitis:flintlock_mechanism"
+    },
+    "e": {
+      "item": "gunsmith_cognitis:flintlockgunkit"
+    },
+    "f": {
+      "tag": "minecraft:logs"
+    }
+  },
+  "result": {
+    "item": "gunsmith_cognitis:flintlock_asumette_rifled_wall_gun",
+    "count": 1
+  }
+}

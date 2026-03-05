@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "gunsmith_cognitis:double_barrel_shotgun",
+    "gunsmith_cognitis:sawn_off_double_barrel_shotgun",
+    "gunsmith_cognitis:colt_peterson_1836",
+    "gunsmith_cognitis:colt_dragoon_1848",
+    "gunsmith_cognitis:colt_walker_1847",
+    "gunsmith_cognitis:colt_revolving_rifle_1855",
+    "gunsmith_cognitis:colt_army_1860",
+    "gunsmith_cognitis:joseph_egg_pistol",
+    "gunsmith_cognitis:adams_1856_revolver",
+    "gunsmith_cognitis:sawn_off_colt_revolver_1855",
+    "gunsmith_cognitis:porter_turret_rifle",
+    "gunsmith_cognitis:colt_revolving_shotgun_1855",
+    "gunsmith_cognitis:sawn_colt_revolving_shotgun_1855"
+  ]
+}

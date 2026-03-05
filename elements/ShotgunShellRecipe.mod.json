@@ -1,0 +1,48 @@
+{
+  "_fv": 60,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 2,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:MusketBallProjectile"
+      },
+      {
+        "value": "CUSTOM:MusketBallProjectile"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:MusketBallProjectile"
+      },
+      {
+        "value": "CUSTOM:MusketBallProjectile"
+      },
+      {
+        "value": "CUSTOM:PercussioncapBlueprintMastery"
+      },
+      {
+        "value": "Items.GUNPOWDER"
+      },
+      {
+        "value": "Items.PAPER"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ShotgunShell"
+    },
+    "name": "shotgun_shell_recipe",
+    "namespace": "mod"
+  }
+}

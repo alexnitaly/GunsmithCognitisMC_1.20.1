@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "def"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:iron_ingot"
+    },
+    "b": {
+      "item": "gunsmith_cognitis:bigborebarrel"
+    },
+    "c": {
+      "item": "gunsmith_cognitis:flintlock_mechanism"
+    },
+    "d": {
+      "tag": "gunsmith_cognitis:blueprint_flintlock_intermediate"
+    },
+    "e": {
+      "item": "gunsmith_cognitis:flintlockgunkit"
+    },
+    "f": {
+      "tag": "minecraft:logs"
+    }
+  },
+  "result": {
+    "item": "gunsmith_cognitis:flintlock_hand_mortar",
+    "count": 1
+  }
+}

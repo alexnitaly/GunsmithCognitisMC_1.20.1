@@ -1,0 +1,48 @@
+{
+  "_fv": 60,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.STRING"
+      },
+      {
+        "value": "TAG:gunsmith_cognitis:blueprint_percussion_intermediate"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Fulminatepowder"
+      },
+      {
+        "value": "Items.PAPER"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Fulminatepowder"
+      },
+      {
+        "value": "Items.PAPER"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Dynamite"
+    },
+    "name": "dynamite_recipe",
+    "namespace": "mod"
+  }
+}

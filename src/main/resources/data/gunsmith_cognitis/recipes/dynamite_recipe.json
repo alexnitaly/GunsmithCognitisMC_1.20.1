@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab",
+    "cd",
+    "cd"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:string"
+    },
+    "b": {
+      "tag": "gunsmith_cognitis:blueprint_percussion_intermediate"
+    },
+    "c": {
+      "item": "gunsmith_cognitis:fulminatepowder"
+    },
+    "d": {
+      "item": "minecraft:paper"
+    }
+  },
+  "result": {
+    "item": "gunsmith_cognitis:dynamite",
+    "count": 1
+  }
+}

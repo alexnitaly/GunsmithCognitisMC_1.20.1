@@ -1,0 +1,20 @@
+{
+  "gun_shot_heavy": {
+    "subtitle": "subtitles.gun_shot_heavy",
+    "sounds": [
+      {
+        "name": "gunsmith_cognitis:akm_shot",
+        "stream": false
+      }
+    ]
+  },
+  "musket_shot": {
+    "subtitle": "subtitles.musket_shot",
+    "sounds": [
+      {
+        "name": "gunsmith_cognitis:musket_revamp",
+        "stream": false
+      }
+    ]
+  }
+}

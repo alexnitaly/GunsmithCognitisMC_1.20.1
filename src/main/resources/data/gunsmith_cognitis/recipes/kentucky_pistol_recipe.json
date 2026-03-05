@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a  ",
+    "bcd",
+    "efg"
+  ],
+  "key": {
+    "a": {
+      "item": "gunsmith_cognitis:riflingtool"
+    },
+    "b": {
+      "item": "minecraft:gunpowder"
+    },
+    "c": {
+      "item": "gunsmith_cognitis:bigborebarrel"
+    },
+    "d": {
+      "item": "gunsmith_cognitis:percussioncap_mechanism"
+    },
+    "e": {
+      "tag": "gunsmith_cognitis:blueprint_percussion_entry"
+    },
+    "f": {
+      "item": "gunsmith_cognitis:percussioncapgunkit"
+    },
+    "g": {
+      "tag": "minecraft:logs"
+    }
+  },
+  "result": {
+    "item": "gunsmith_cognitis:kentucky_pistol",
+    "count": 1
+  }
+}

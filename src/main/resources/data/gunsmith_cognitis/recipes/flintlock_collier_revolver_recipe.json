@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab ",
+    "cde",
+    "fgh"
+  ],
+  "key": {
+    "a": {
+      "item": "gunsmith_cognitis:smoothborebarrel"
+    },
+    "b": {
+      "tag": "gunsmith_cognitis:blueprint_flintlock_mastery"
+    },
+    "c": {
+      "item": "minecraft:gunpowder"
+    },
+    "d": {
+      "item": "gunsmith_cognitis:revolver_drum"
+    },
+    "e": {
+      "item": "gunsmith_cognitis:flintlock_mechanism"
+    },
+    "f": {
+      "item": "minecraft:gold_nugget"
+    },
+    "g": {
+      "item": "gunsmith_cognitis:flintlockgunkit"
+    },
+    "h": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "result": {
+    "item": "gunsmith_cognitis:flintlock_collier_revolver",
+    "count": 1
+  }
+}

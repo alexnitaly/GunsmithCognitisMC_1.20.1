@@ -1,0 +1,48 @@
+{
+  "_fv": 60,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Smoothborebarrel"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:FlintlockCollierRevolver"
+      },
+      {
+        "value": "TAG:gunsmith_cognitis:blueprint_flintlock_mastery"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Flintlockgunkit"
+      },
+      {
+        "value": "Blocks.LOG"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:FlintlockCollierRevolvingCarbine"
+    },
+    "name": "flintlock_collier_revolving_carbine_recipe",
+    "namespace": "mod"
+  }
+}

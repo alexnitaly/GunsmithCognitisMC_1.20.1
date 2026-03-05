@@ -1,0 +1,34 @@
+{
+  "_fv": 60,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Gunsmith Cognitis",
+    "achievementDescription": "Gunpowder, something always used to make things blow up, but what if we use it to shoot something out of a tube instead?",
+    "achievementIcon": {
+      "value": "Items.GUNPOWDER"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": false,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [
+      "MusketballRecipe",
+      "HeavyMusketballRecipe",
+      "HandgunneRecipe",
+      "HandcannonRecipe",
+      "ResearchTableRecipe",
+      "ThreeEyeGunRecipe",
+      "LandsknechtHarkebusRecipe",
+      "Ramrodrecipe"
+    ],
+    "rewardFunction": "No function",
+    "rewardXP": 0,
+    "achievementType": "task",
+    "parent": {
+      "value": "No parent: root"
+    },
+    "triggerxml": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><xml xmlns=\"https://developers.google.com/blockly/xml\"><block deletable=\"false\" type=\"advancement_trigger\" x=\"40\" y=\"80\"><next><block type=\"item_in_inventory\" x=\"70\" y=\"112\"><value name=\"amount_l\"><block type=\"math_number\"><field name=\"NUM\">1</field></block></value><value name=\"amount_h\"><block type=\"math_number\"><field name=\"NUM\">64</field></block></value><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">Items.GUNPOWDER</field></block></value></block></next></block></xml>"
+  }
+}

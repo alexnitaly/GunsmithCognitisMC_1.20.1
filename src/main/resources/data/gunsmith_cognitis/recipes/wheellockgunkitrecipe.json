@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " ab",
+    "cde",
+    "fgf"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:gold_nugget"
+    },
+    "b": {
+      "tag": "gunsmith_cognitis:blueprint_wheellock_entry"
+    },
+    "c": {
+      "item": "minecraft:redstone"
+    },
+    "d": {
+      "item": "minecraft:chain"
+    },
+    "e": {
+      "item": "minecraft:gunpowder"
+    },
+    "f": {
+      "item": "minecraft:iron_ingot"
+    },
+    "g": {
+      "item": "minecraft:stone_pressure_plate"
+    }
+  },
+  "result": {
+    "item": "gunsmith_cognitis:wheellockgunkit",
+    "count": 1
+  }
+}

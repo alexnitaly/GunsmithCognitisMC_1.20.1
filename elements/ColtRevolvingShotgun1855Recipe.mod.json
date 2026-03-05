@@ -1,0 +1,48 @@
+{
+  "_fv": 60,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Smoothborebarrel"
+      },
+      {
+        "value": "CUSTOM:AdvancedRevolversBlueprint"
+      },
+      {
+        "value": "CUSTOM:ShotgunShell"
+      },
+      {
+        "value": "CUSTOM:Smoothborebarrel"
+      },
+      {
+        "value": "CUSTOM:RevolverDrum"
+      },
+      {
+        "value": "CUSTOM:PercussioncapMechanism"
+      },
+      {
+        "value": "CUSTOM:Ramrod"
+      },
+      {
+        "value": "CUSTOM:Percussioncapgunkit"
+      },
+      {
+        "value": "Blocks.LOG"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ColtRevolvingShotgun1855"
+    },
+    "name": "colt_revolving_shotgun_1855_recipe",
+    "namespace": "mod"
+  }
+}

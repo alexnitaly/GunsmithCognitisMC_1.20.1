@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a ",
+    "bc"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:iron_ingot"
+    },
+    "b": {
+      "item": "minecraft:flint"
+    },
+    "c": {
+      "item": "gunsmith_cognitis:springfield_model_1861_rifled_musket"
+    }
+  },
+  "result": {
+    "item": "gunsmith_cognitis:springfield_model_1861_rifled_musket_bayonet",
+    "count": 1
+  }
+}

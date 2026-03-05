@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "dae",
+    "bfg"
+  ],
+  "key": {
+    "a": {
+      "item": "gunsmith_cognitis:smoothborebarrel"
+    },
+    "b": {
+      "item": "minecraft:gold_nugget"
+    },
+    "c": {
+      "tag": "gunsmith_cognitis:blueprint_matchlock_mastery"
+    },
+    "d": {
+      "item": "minecraft:gunpowder"
+    },
+    "e": {
+      "item": "minecraft:string"
+    },
+    "f": {
+      "item": "gunsmith_cognitis:matchlockgunkit"
+    },
+    "g": {
+      "tag": "minecraft:logs"
+    }
+  },
+  "result": {
+    "item": "gunsmith_cognitis:tanegashima",
+    "count": 1
+  }
+}

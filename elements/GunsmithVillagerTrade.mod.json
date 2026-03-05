@@ -1,0 +1,889 @@
+{
+  "_fv": 60,
+  "_type": "villagertrade",
+  "definition": {
+    "tradeEntries": [
+      {
+        "villagerProfession": {
+          "value": "CUSTOM:GunsmithVillagerNew"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "Items.GUNPOWDER"
+            },
+            "countPrice1": 12,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.EMERALD"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 16,
+            "xp": 2,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.STRING"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.EMERALD"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 16,
+            "xp": 2,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:CrudeSmoothborebarrel"
+            },
+            "countPrice1": 7,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.EMERALD"
+            },
+            "countOffer": 2,
+            "level": 1,
+            "maxTrades": 12,
+            "xp": 3,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:CrudeBigborebarrel"
+            },
+            "countPrice1": 4,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.EMERALD"
+            },
+            "countOffer": 2,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 3,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 5,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:Matchlockrepair"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 12,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:Musketball"
+            },
+            "countOffer": 3,
+            "level": 1,
+            "maxTrades": 16,
+            "xp": 2,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 2,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:HeavyMusketball"
+            },
+            "countOffer": 4,
+            "level": 1,
+            "maxTrades": 16,
+            "xp": 2,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 4,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:Handgunne"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 9,
+            "xp": 10,
+            "priceMultiplier": 0.08
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 5,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:Handcannon"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 9,
+            "xp": 10,
+            "priceMultiplier": 0.08
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 3,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:MatchlockPistol"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 8,
+            "priceMultiplier": 0.08
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 4,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:LandsknechtHarkebus"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 8,
+            "xp": 10,
+            "priceMultiplier": 0.08
+          }
+        ]
+      },
+      {
+        "villagerProfession": {
+          "value": "CUSTOM:GunsmithVillagerNew"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "Items.IRON_INGOT"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.EMERALD"
+            },
+            "countOffer": 1,
+            "level": 2,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:Smoothborebarrel"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.EMERALD"
+            },
+            "countOffer": 1,
+            "level": 2,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:Bigborebarrel"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.EMERALD"
+            },
+            "countOffer": 1,
+            "level": 2,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 8,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:MatchlockSnaphanceMusket"
+            },
+            "countOffer": 1,
+            "level": 2,
+            "maxTrades": 8,
+            "xp": 15,
+            "priceMultiplier": 0.08
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 7,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:MatchlockHeavyArquebus"
+            },
+            "countOffer": 1,
+            "level": 2,
+            "maxTrades": 8,
+            "xp": 15,
+            "priceMultiplier": 0.08
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 5,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:MatchlockArquebus"
+            },
+            "countOffer": 1,
+            "level": 2,
+            "maxTrades": 9,
+            "xp": 10,
+            "priceMultiplier": 0.08
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 5,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:MatchlockBlunderbuss"
+            },
+            "countOffer": 1,
+            "level": 2,
+            "maxTrades": 9,
+            "xp": 10,
+            "priceMultiplier": 0.08
+          }
+        ]
+      },
+      {
+        "villagerProfession": {
+          "value": "CUSTOM:GunsmithVillagerNew"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 3,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:Rifledbarrel"
+            },
+            "countOffer": 2,
+            "level": 3,
+            "maxTrades": 12,
+            "xp": 6,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:Riflingtool"
+            },
+            "countOffer": 1,
+            "level": 3,
+            "maxTrades": 8,
+            "xp": 4,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 6,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:Wheellockgunkit"
+            },
+            "countOffer": 1,
+            "level": 3,
+            "maxTrades": 10,
+            "xp": 8,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 5,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:WheellockPistol"
+            },
+            "countOffer": 1,
+            "level": 3,
+            "maxTrades": 12,
+            "xp": 10,
+            "priceMultiplier": 0.08
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 7,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:WheellockCarbine"
+            },
+            "countOffer": 1,
+            "level": 3,
+            "maxTrades": 10,
+            "xp": 10,
+            "priceMultiplier": 0.08
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 11,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:WheellockSportingRifle"
+            },
+            "countOffer": 1,
+            "level": 3,
+            "maxTrades": 7,
+            "xp": 15,
+            "priceMultiplier": 0.1
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 2,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:PaperCartidgeAmmo"
+            },
+            "countOffer": 5,
+            "level": 1,
+            "maxTrades": 15,
+            "xp": 4,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 2,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:PaperCartidgeSmallAmmo"
+            },
+            "countOffer": 7,
+            "level": 1,
+            "maxTrades": 15,
+            "xp": 4,
+            "priceMultiplier": 0.05
+          }
+        ]
+      },
+      {
+        "villagerProfession": {
+          "value": "CUSTOM:GunsmithVillagerNew"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 7,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:Flintlockgunkit"
+            },
+            "countOffer": 2,
+            "level": 4,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 8,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:Flintlockmusket"
+            },
+            "countOffer": 1,
+            "level": 4,
+            "maxTrades": 12,
+            "xp": 12,
+            "priceMultiplier": 0.08
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 6,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:FlintlockPistol"
+            },
+            "countOffer": 1,
+            "level": 4,
+            "maxTrades": 12,
+            "xp": 8,
+            "priceMultiplier": 0.08
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 9,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:FlintlockRifledCarbine"
+            },
+            "countOffer": 1,
+            "level": 4,
+            "maxTrades": 10,
+            "xp": 16,
+            "priceMultiplier": 0.08
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 5,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:HandBomb"
+            },
+            "countOffer": 2,
+            "level": 4,
+            "maxTrades": 6,
+            "xp": 8,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 21,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:WheellockKalthoffRepeater"
+            },
+            "countOffer": 1,
+            "level": 4,
+            "maxTrades": 4,
+            "xp": 25,
+            "priceMultiplier": 0.1
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 9,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:FlintlockBlunderbuss"
+            },
+            "countOffer": 1,
+            "level": 4,
+            "maxTrades": 8,
+            "xp": 12,
+            "priceMultiplier": 0.08
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:FlintlockMechanism"
+            },
+            "countPrice1": 4,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.EMERALD"
+            },
+            "countOffer": 5,
+            "level": 4,
+            "maxTrades": 6,
+            "xp": 6,
+            "priceMultiplier": 0.049999999999999996
+          }
+        ]
+      },
+      {
+        "villagerProfession": {
+          "value": "CUSTOM:GunsmithVillagerNew"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "CUSTOM:Fulminatepowder"
+            },
+            "countPrice1": 12,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.EMERALD"
+            },
+            "countOffer": 1,
+            "level": 5,
+            "maxTrades": 8,
+            "xp": 4,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:PercussioncapMechanism"
+            },
+            "countPrice1": 4,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.EMERALD"
+            },
+            "countOffer": 6,
+            "level": 5,
+            "maxTrades": 8,
+            "xp": 4,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 10,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:Percussioncapgunkit"
+            },
+            "countOffer": 1,
+            "level": 5,
+            "maxTrades": 8,
+            "xp": 6,
+            "priceMultiplier": 0.08
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 3,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:Percussionnipple"
+            },
+            "countOffer": 8,
+            "level": 5,
+            "maxTrades": 12,
+            "xp": 3,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": "CUSTOM:MusketBallProjectile"
+            },
+            "countPrice2": 5,
+            "offer": {
+              "value": "CUSTOM:MinieBall"
+            },
+            "countOffer": 5,
+            "level": 5,
+            "maxTrades": 15,
+            "xp": 4,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": "CUSTOM:PaperCartidgeAmmo"
+            },
+            "countPrice2": 5,
+            "offer": {
+              "value": "CUSTOM:MiniePaperCartidgeAmmo"
+            },
+            "countOffer": 5,
+            "level": 5,
+            "maxTrades": 10,
+            "xp": 4,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 15,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:Pattern1851minierifle"
+            },
+            "countOffer": 1,
+            "level": 5,
+            "maxTrades": 8,
+            "xp": 10,
+            "priceMultiplier": 0.08
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 18,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:Fusil1866Chassepot"
+            },
+            "countOffer": 1,
+            "level": 5,
+            "maxTrades": 7,
+            "xp": 20,
+            "priceMultiplier": 0.12
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 9,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:LorenzPistol"
+            },
+            "countOffer": 1,
+            "level": 5,
+            "maxTrades": 10,
+            "xp": 8,
+            "priceMultiplier": 0.08
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 15,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:SpringfieldModel1861RifledMusket"
+            },
+            "countOffer": 1,
+            "level": 5,
+            "maxTrades": 8,
+            "xp": 15,
+            "priceMultiplier": 0.1
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 12,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:FlintlockPepperbox"
+            },
+            "countOffer": 1,
+            "level": 5,
+            "maxTrades": 10,
+            "xp": 15,
+            "priceMultiplier": 0.1
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 15,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:FlintlockCollierRevolver"
+            },
+            "countOffer": 1,
+            "level": 5,
+            "maxTrades": 6,
+            "xp": 20,
+            "priceMultiplier": 0.1
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:RevolverDrum"
+            },
+            "countPrice1": 3,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.EMERALD"
+            },
+            "countOffer": 1,
+            "level": 5,
+            "maxTrades": 8,
+            "xp": 4,
+            "priceMultiplier": 0.05
+          }
+        ]
+      }
+    ]
+  }
+}

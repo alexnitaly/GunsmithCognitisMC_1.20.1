@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": [],
+  "base": {
+    "item": "gunsmith_cognitis:smoothborebarrel"
+  },
+  "addition": {
+    "item": "gunsmith_cognitis:riflingtool"
+  },
+  "result": {
+    "item": "gunsmith_cognitis:rifledbarrel"
+  }
+}

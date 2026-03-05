@@ -1,0 +1,11 @@
+{
+  "_fv": 60,
+  "_type": "tab",
+  "definition": {
+    "name": "Gunsmith Cognitis Flintlock Tab",
+    "icon": {
+      "value": "CUSTOM:Flintlockmusket"
+    },
+    "showSearch": false
+  }
+}

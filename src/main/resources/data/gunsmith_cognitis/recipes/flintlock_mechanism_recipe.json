@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "dee"
+  ],
+  "key": {
+    "a": {
+      "tag": "gunsmith_cognitis:blueprint_flintlock_entry"
+    },
+    "b": {
+      "item": "minecraft:flint_and_steel"
+    },
+    "c": {
+      "item": "minecraft:iron_nugget"
+    },
+    "d": {
+      "item": "minecraft:lever"
+    },
+    "e": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "gunsmith_cognitis:flintlock_mechanism",
+    "count": 1
+  }
+}

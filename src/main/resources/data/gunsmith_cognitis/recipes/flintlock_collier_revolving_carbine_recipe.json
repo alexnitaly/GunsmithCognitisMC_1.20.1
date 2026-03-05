@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a  ",
+    " bc",
+    " de"
+  ],
+  "key": {
+    "a": {
+      "item": "gunsmith_cognitis:smoothborebarrel"
+    },
+    "b": {
+      "item": "gunsmith_cognitis:flintlock_collier_revolver"
+    },
+    "c": {
+      "tag": "gunsmith_cognitis:blueprint_flintlock_mastery"
+    },
+    "d": {
+      "item": "gunsmith_cognitis:flintlockgunkit"
+    },
+    "e": {
+      "tag": "minecraft:logs"
+    }
+  },
+  "result": {
+    "item": "gunsmith_cognitis:flintlock_collier_revolving_carbine",
+    "count": 1
+  }
+}

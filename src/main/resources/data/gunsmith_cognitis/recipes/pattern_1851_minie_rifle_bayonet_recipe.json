@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:flint"
+    },
+    {
+      "item": "gunsmith_cognitis:pattern_1851minierifle"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    }
+  ],
+  "result": {
+    "item": "gunsmith_cognitis:pattern_1851_minie_rifle_bayonet",
+    "count": 1
+  }
+}

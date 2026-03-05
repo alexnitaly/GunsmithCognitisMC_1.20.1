@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a ",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:copper_ingot"
+    }
+  },
+  "result": {
+    "item": "gunsmith_cognitis:crude_bigborebarrel",
+    "count": 1
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "_fv": 60,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smithing",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smithingInputStack": {
+      "value": "TAG:gunsmith_cognitis:blueprint_percussion_intermediate"
+    },
+    "smithingInputAdditionStack": {
+      "value": "CUSTOM:ColtPeterson1836"
+    },
+    "smithingReturnStack": {
+      "value": "CUSTOM:AdvancedRevolversBlueprint"
+    },
+    "name": "advanced_revolvers_blueprint_recipe",
+    "namespace": "mod"
+  }
+}

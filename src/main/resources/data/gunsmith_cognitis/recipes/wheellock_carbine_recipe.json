@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab ",
+    "cde",
+    " fg"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:iron_ingot"
+    },
+    "b": {
+      "tag": "gunsmith_cognitis:blueprint_wheellock_intermediate"
+    },
+    "c": {
+      "item": "minecraft:gunpowder"
+    },
+    "d": {
+      "item": "gunsmith_cognitis:smoothborebarrel"
+    },
+    "e": {
+      "item": "minecraft:redstone"
+    },
+    "f": {
+      "item": "gunsmith_cognitis:wheellockgunkit"
+    },
+    "g": {
+      "tag": "minecraft:logs"
+    }
+  },
+  "result": {
+    "item": "gunsmith_cognitis:wheellock_musket",
+    "count": 1
+  }
+}

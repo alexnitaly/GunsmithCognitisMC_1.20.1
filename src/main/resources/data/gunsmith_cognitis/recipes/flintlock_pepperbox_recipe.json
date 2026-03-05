@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aab",
+    "aac",
+    "def"
+  ],
+  "key": {
+    "a": {
+      "item": "gunsmith_cognitis:smoothborebarrel"
+    },
+    "b": {
+      "tag": "gunsmith_cognitis:blueprint_flintlock_intermediate"
+    },
+    "c": {
+      "item": "gunsmith_cognitis:flintlock_mechanism"
+    },
+    "d": {
+      "item": "minecraft:gunpowder"
+    },
+    "e": {
+      "item": "gunsmith_cognitis:flintlockgunkit"
+    },
+    "f": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "result": {
+    "item": "gunsmith_cognitis:flintlock_pepperbox",
+    "count": 1
+  }
+}

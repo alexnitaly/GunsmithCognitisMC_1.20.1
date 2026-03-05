@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab ",
+    "cde",
+    " fe"
+  ],
+  "key": {
+    "a": {
+      "item": "gunsmith_cognitis:double_barrels_part"
+    },
+    "b": {
+      "tag": "gunsmith_cognitis:blueprint_percussion_intermediate"
+    },
+    "c": {
+      "item": "gunsmith_cognitis:percussioncapgunkit"
+    },
+    "d": {
+      "item": "minecraft:iron_ingot"
+    },
+    "e": {
+      "item": "gunsmith_cognitis:percussioncap_mechanism"
+    },
+    "f": {
+      "tag": "minecraft:logs"
+    }
+  },
+  "result": {
+    "item": "gunsmith_cognitis:double_barrel_shotgun",
+    "count": 1
+  }
+}

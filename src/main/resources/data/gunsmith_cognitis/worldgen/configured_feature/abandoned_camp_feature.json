@@ -1,0 +1,14 @@
+{
+  "type": "gunsmith_cognitis:structure_feature",
+  "config": {
+    "structure": "gunsmith_cognitis:gc_abandoned_camp",
+    "random_rotation": true,
+    "random_mirror": true,
+    "ignored_blocks": "minecraft:structure_block",
+    "offset": [
+      0,
+      -4,
+      0
+    ]
+  }
+}

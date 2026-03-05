@@ -1,0 +1,48 @@
+{
+  "_fv": 60,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Smoothborebarrel"
+      },
+      {
+        "value": "Items.GUNPOWDER"
+      },
+      {
+        "value": "CUSTOM:FlintlockMechanism"
+      },
+      {
+        "value": "TAG:gunsmith_cognitis:blueprint_flintlock_intermediate"
+      },
+      {
+        "value": "CUSTOM:Smoothborebarrel"
+      },
+      {
+        "value": "CUSTOM:Flintlockmusket"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:FlintlockDoubleBarrelMusket"
+    },
+    "name": "flintlock_musket_db_recipe",
+    "namespace": "mod"
+  }
+}

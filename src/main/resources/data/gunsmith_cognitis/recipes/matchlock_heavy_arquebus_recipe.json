@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab ",
+    "cad",
+    "efg"
+  ],
+  "key": {
+    "a": {
+      "item": "gunsmith_cognitis:smoothborebarrel"
+    },
+    "b": {
+      "tag": "gunsmith_cognitis:blueprint_matchlock_mastery"
+    },
+    "c": {
+      "item": "minecraft:iron_ingot"
+    },
+    "d": {
+      "item": "minecraft:flint_and_steel"
+    },
+    "e": {
+      "item": "minecraft:gunpowder"
+    },
+    "f": {
+      "item": "gunsmith_cognitis:matchlockgunkit"
+    },
+    "g": {
+      "tag": "minecraft:logs"
+    }
+  },
+  "result": {
+    "item": "gunsmith_cognitis:matchlock_heavy_arquebus",
+    "count": 1
+  }
+}

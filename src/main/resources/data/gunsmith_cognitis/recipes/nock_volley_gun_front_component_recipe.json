@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abb",
+    "bbb",
+    "bba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:gold_nugget"
+    },
+    "b": {
+      "item": "gunsmith_cognitis:smoothborebarrel"
+    }
+  },
+  "result": {
+    "item": "gunsmith_cognitis:nock_volley_gun_front_component",
+    "count": 1
+  }
+}

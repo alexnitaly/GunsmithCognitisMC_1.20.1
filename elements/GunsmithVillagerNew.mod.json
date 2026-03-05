@@ -1,0 +1,16 @@
+{
+  "_fv": 60,
+  "_type": "villagerprofession",
+  "definition": {
+    "displayName": "Gunsmith Villager",
+    "pointOfInterest": {
+      "value": "CUSTOM:ResearchTable"
+    },
+    "actionSound": {
+      "value": "entity.villager.work_weaponsmith"
+    },
+    "hat": "None",
+    "professionTextureFile": "villager_gunsmith.png",
+    "zombifiedProfessionTextureFile": "villager_gunsmith.png"
+  }
+}

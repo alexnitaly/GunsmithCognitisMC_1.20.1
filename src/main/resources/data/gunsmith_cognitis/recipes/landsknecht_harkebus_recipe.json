@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab",
+    "cd"
+  ],
+  "key": {
+    "a": {
+      "item": "gunsmith_cognitis:crude_bigborebarrel"
+    },
+    "b": {
+      "item": "minecraft:string"
+    },
+    "c": {
+      "item": "gunsmith_cognitis:matchlockgunkit"
+    },
+    "d": {
+      "tag": "minecraft:logs"
+    }
+  },
+  "result": {
+    "item": "gunsmith_cognitis:landsknecht_harkebus",
+    "count": 1
+  }
+}

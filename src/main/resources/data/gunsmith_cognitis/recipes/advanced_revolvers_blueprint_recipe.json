@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": [],
+  "base": {
+    "tag": "gunsmith_cognitis:blueprint_percussion_intermediate"
+  },
+  "addition": {
+    "item": "gunsmith_cognitis:colt_peterson_1836"
+  },
+  "result": {
+    "item": "gunsmith_cognitis:advanced_revolvers_blueprint"
+  }
+}

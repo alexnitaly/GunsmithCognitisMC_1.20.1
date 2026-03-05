@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:flint"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "gunsmith_cognitis:flintlockmusket"
+    }
+  ],
+  "result": {
+    "item": "gunsmith_cognitis:flintlockmusketbayonet",
+    "count": 1
+  }
+}
