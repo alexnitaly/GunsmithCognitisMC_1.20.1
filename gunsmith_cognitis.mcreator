@@ -8801,12 +8801,12 @@
       "registry_name": "research_table",
       "metadata": {
         "files": [
-          "src/main/resources/assets/gunsmith_cognitis/models/item/research_table.json",
-          "src/main/resources/data/gunsmith_cognitis/loot_tables/blocks/research_table.json",
+          "src/main/java/net/mcreator/gunsmithcognitis/block/ResearchTableBlock.java",
           "src/main/java/net/mcreator/gunsmithcognitis/block/entity/ResearchTableBlockEntity.java",
           "src/main/resources/assets/gunsmith_cognitis/blockstates/research_table.json",
+          "src/main/resources/assets/gunsmith_cognitis/models/item/research_table.json",
           "src/main/resources/assets/gunsmith_cognitis/models/block/research_table.json",
-          "src/main/java/net/mcreator/gunsmithcognitis/block/ResearchTableBlock.java"
+          "src/main/resources/data/gunsmith_cognitis/loot_tables/blocks/research_table.json"
         ]
       },
       "path": "~/Research"
@@ -8979,8 +8979,8 @@
       "registry_name": "wheellock_blueprint_intermediate",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/gunsmithcognitis/item/WheellockBlueprintIntermediateItem.java",
-          "src/main/resources/assets/gunsmith_cognitis/models/item/wheellock_blueprint_intermediate.json"
+          "src/main/resources/assets/gunsmith_cognitis/models/item/wheellock_blueprint_intermediate.json",
+          "src/main/java/net/mcreator/gunsmithcognitis/item/WheellockBlueprintIntermediateItem.java"
         ]
       },
       "path": "~/Research"
@@ -12940,8 +12940,8 @@
       "registry_name": "dreyse_needle_gun",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/gunsmithcognitis/item/DreyseNeedleGunItem.java",
-          "src/main/resources/assets/gunsmith_cognitis/models/item/dreyse_needle_gun.json"
+          "src/main/resources/assets/gunsmith_cognitis/models/item/dreyse_needle_gun.json",
+          "src/main/java/net/mcreator/gunsmithcognitis/item/DreyseNeedleGunItem.java"
         ]
       },
       "path": "~/Percussion Cap"
@@ -14652,7 +14652,7 @@
   "workspaceSettings": {
     "modid": "gunsmith_cognitis",
     "modName": "Gunsmith_Cognitis",
-    "version": "2.0.0",
+    "version": "2.0.1",
     "description": "Gunsmith Cognitis is a mod who tries to add realistic old firearms to minecraft",
     "author": "Alex n\u0027 Italy",
     "websiteURL": "https://www.curseforge.com/minecraft/mc-mods/gunsmith-cognitis",

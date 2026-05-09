@@ -40,7 +40,8 @@ public class Fusil1866ChassepotItem extends Item {
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level level, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, level, list, flag);
-		list.add(Component.literal("Breech Loading Rifle: Uses Paper Cartidge Rifle Ammo and Percussion Cap from Inventory."));
+		list.add(Component.literal("Breech Loading Rifle:"));
+		list.add(Component.literal("Uses Minie Paper Cartidge Rifle Ammo and a Percussion Cap from Inventory."));
 	}
 
 	@Override

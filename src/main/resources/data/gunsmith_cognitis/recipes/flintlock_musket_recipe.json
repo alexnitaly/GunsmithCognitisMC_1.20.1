@@ -17,7 +17,7 @@
       "item": "gunsmith_cognitis:flintlock_mechanism"
     },
     "d": {
-      "tag": "gunsmith_cognitis:blueprint_flintlock_entry"
+      "tag": "forge:blueprint_flintlock_entry"
     },
     "e": {
       "item": "gunsmith_cognitis:flintlockgunkit"

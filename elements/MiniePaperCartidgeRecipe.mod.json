@@ -40,7 +40,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:PaperCartidgeAmmo"
+      "value": "CUSTOM:MiniePaperCartidgeAmmo"
     },
     "name": "minie_paper_cartidge_recipe",
     "namespace": "mod"

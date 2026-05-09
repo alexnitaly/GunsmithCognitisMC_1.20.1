@@ -17,6 +17,9 @@
     "useDuration": 72000,
     "toolType": 0.0,
     "damageCount": 855,
+    "recipeRemainder": {
+      "value": ""
+    },
     "destroyAnyBlock": false,
     "immuneToFire": false,
     "stayInGridWhenCrafting": false,
@@ -25,12 +28,14 @@
     "damageVsEntity": 0.0,
     "specialInformation": {
       "fixedValue": [
-        "Breech Loading Rifle: Uses Paper Cartidge Rifle Ammo and Percussion Cap from Inventory."
+        "Breech Loading Rifle:",
+        "Uses Minie Paper Cartidge Rifle Ammo and a Percussion Cap from Inventory."
       ]
     },
     "glowCondition": {
       "fixedValue": false
     },
+    "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "enableRanged": true,
@@ -47,6 +52,9 @@
     "isFood": false,
     "nutritionalValue": 0,
     "saturation": 0.30000001192092896,
+    "eatResultItem": {
+      "value": ""
+    },
     "isMeat": false,
     "isAlwaysEdible": false,
     "animation": "none"

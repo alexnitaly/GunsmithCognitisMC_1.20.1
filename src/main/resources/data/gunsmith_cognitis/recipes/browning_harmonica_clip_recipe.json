@@ -17,7 +17,7 @@
       "item": "minecraft:gunpowder"
     },
     "d": {
-      "tag": "gunsmith_cognitis:blueprint_percussion_mastery"
+      "tag": "forge:blueprint_percussion_mastery"
     }
   },
   "result": {

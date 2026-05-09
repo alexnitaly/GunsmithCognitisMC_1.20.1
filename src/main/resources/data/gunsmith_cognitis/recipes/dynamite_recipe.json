@@ -11,7 +11,7 @@
       "item": "minecraft:string"
     },
     "b": {
-      "tag": "gunsmith_cognitis:blueprint_percussion_intermediate"
+      "tag": "forge:blueprint_percussion_intermediate"
     },
     "c": {
       "item": "gunsmith_cognitis:fulminatepowder"

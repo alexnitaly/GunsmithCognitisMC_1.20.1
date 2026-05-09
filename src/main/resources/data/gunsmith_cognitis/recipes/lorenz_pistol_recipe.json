@@ -16,7 +16,7 @@
       "item": "gunsmith_cognitis:percussioncap_mechanism"
     },
     "d": {
-      "tag": "gunsmith_cognitis:blueprint_percussion_entry"
+      "tag": "forge:blueprint_percussion_entry"
     },
     "e": {
       "item": "gunsmith_cognitis:percussioncapgunkit"

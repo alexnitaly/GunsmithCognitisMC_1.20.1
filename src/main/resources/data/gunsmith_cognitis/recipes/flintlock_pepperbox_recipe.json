@@ -11,7 +11,7 @@
       "item": "gunsmith_cognitis:smoothborebarrel"
     },
     "b": {
-      "tag": "gunsmith_cognitis:blueprint_flintlock_intermediate"
+      "tag": "forge:blueprint_flintlock_intermediate"
     },
     "c": {
       "item": "gunsmith_cognitis:flintlock_mechanism"

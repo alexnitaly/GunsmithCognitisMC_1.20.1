@@ -11,7 +11,7 @@
       "item": "gunsmith_cognitis:smoothborebarrel"
     },
     "b": {
-      "tag": "gunsmith_cognitis:blueprint_wheellock_intermediate"
+      "tag": "forge:blueprint_wheellock_intermediate"
     },
     "c": {
       "item": "minecraft:gunpowder"
