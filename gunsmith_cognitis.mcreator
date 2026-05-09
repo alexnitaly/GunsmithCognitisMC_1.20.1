@@ -12037,7 +12037,7 @@
       "type": "item",
       "sortid": 644,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "matchlock_axe_pistol",
       "metadata": {
         "files": [
@@ -12545,7 +12545,7 @@
       "type": "projectile",
       "sortid": 731,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "dynamite_projectile",
       "metadata": {
         "files": [
@@ -12574,7 +12574,7 @@
       "type": "projectile",
       "sortid": 732,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "dynamite_pack_projectile",
       "metadata": {
         "files": [
@@ -13201,8 +13201,8 @@
       "registry_name": "springfield_model_1861_rifled_musket",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/gunsmithcognitis/item/SpringfieldModel1861RifledMusketItem.java",
-          "src/main/resources/assets/gunsmith_cognitis/models/item/springfield_model_1861_rifled_musket.json"
+          "src/main/resources/assets/gunsmith_cognitis/models/item/springfield_model_1861_rifled_musket.json",
+          "src/main/java/net/mcreator/gunsmithcognitis/item/SpringfieldModel1861RifledMusketItem.java"
         ]
       },
       "path": "~/Percussion Cap"
@@ -13357,7 +13357,7 @@
       "type": "projectile",
       "sortid": 759,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "hand_bomb_projectile",
       "metadata": {
         "files": [
@@ -13433,8 +13433,8 @@
       "registry_name": "enfield_1853_musket_rifle",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/gunsmithcognitis/item/Enfield1853MusketRifleItem.java",
-          "src/main/resources/assets/gunsmith_cognitis/models/item/enfield_1853_musket_rifle.json"
+          "src/main/resources/assets/gunsmith_cognitis/models/item/enfield_1853_musket_rifle.json",
+          "src/main/java/net/mcreator/gunsmithcognitis/item/Enfield1853MusketRifleItem.java"
         ]
       },
       "path": "~/Percussion Cap"
@@ -13633,6 +13633,19 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/gunsmithcognitis/PercussionReloadHandler.java"
+        ]
+      }
+    },
+    {
+      "name": "PercussionFirearmReloadHandler",
+      "type": "code",
+      "sortid": 771,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "percussion_firearm_reload_handler",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gunsmithcognitis/PercussionFirearmReloadHandler.java"
         ]
       }
     }
@@ -13951,6 +13964,9 @@
       "CUSTOM:MatchlockPistol",
       "CUSTOM:Handcannon"
     ],
+    "ITEMS:mod:chassepot_breechloader": [
+      "CUSTOM:DreyseNeedleGun"
+    ],
     "ITEMS:forge:has_bayonet": [
       "CUSTOM:Flintlockmusketbayonet",
       "CUSTOM:Pattern1851MinieRifleBayonet",
@@ -13964,6 +13980,10 @@
     "ITEMS:forge:blueprint_flintlock_mastery": [
       "CUSTOM:FlintlockBlueprintMastery",
       "CUSTOM:UniversalBlueprint"
+    ],
+    "ITEMS:mod:dreyse_breechloader": [
+      "CUSTOM:Fusil1866Chassepot",
+      "CUSTOM:Fusil1866ChassepotBayonet"
     ],
     "ITEMS:mod:shotgun": [
       "CUSTOM:MatchlockBlunderbuss",
@@ -14133,6 +14153,13 @@
       "CUSTOM:MatchlockBlueprintIntermediate",
       "CUSTOM:MatchlockBlueprintMastery",
       "CUSTOM:UniversalBlueprint"
+    ],
+    "ITEMS:mod:minie_muzzleloaders": [
+      "CUSTOM:Pattern1851minierifle",
+      "CUSTOM:Pattern1851MinieRifleBayonet",
+      "CUSTOM:SpringfieldModel1861RifledMusket",
+      "CUSTOM:SpringfieldModel1861RifledMusketBayonet",
+      "CUSTOM:Enfield1853MusketRifle"
     ],
     "ITEMS:mod:blueprint_matchlock_entry": [
       "CUSTOM:MatchlockBlueprint",
@@ -14652,7 +14679,7 @@
   "workspaceSettings": {
     "modid": "gunsmith_cognitis",
     "modName": "Gunsmith_Cognitis",
-    "version": "2.0.1",
+    "version": "2.1.0",
     "description": "Gunsmith Cognitis is a mod who tries to add realistic old firearms to minecraft",
     "author": "Alex n\u0027 Italy",
     "websiteURL": "https://www.curseforge.com/minecraft/mc-mods/gunsmith-cognitis",
@@ -14664,7 +14691,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.20.1",
-    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "credits": "By AlexnItaly, Created using custom java code, personally made textures and MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.gunsmithcognitis"
   },
   "mcreatorVersion": 202400118518

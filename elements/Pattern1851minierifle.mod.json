@@ -17,6 +17,9 @@
     "useDuration": 72000,
     "toolType": 0.0,
     "damageCount": 779,
+    "recipeRemainder": {
+      "value": ""
+    },
     "destroyAnyBlock": false,
     "immuneToFire": false,
     "stayInGridWhenCrafting": false,
@@ -25,13 +28,15 @@
     "damageVsEntity": 0.0,
     "specialInformation": {
       "fixedValue": [
-        "Percussion Cap tier: Requires 2 gunpowder and minie ball in inventory OR a minie paper cartidge in inventory to load",
-        "needs a percussion cap from inventory in order to fire."
+        "Percussion Cap tier:",
+        "Requires 2 gunpowder and minie ball in inventory OR a minie paper cartidge in inventory, loaded with ramrod in off-hand.",
+        "Needs a percussion cap from inventory in order to fire."
       ]
     },
     "glowCondition": {
       "fixedValue": false
     },
+    "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "enableRanged": true,
@@ -48,6 +53,9 @@
     "isFood": false,
     "nutritionalValue": 0,
     "saturation": 0.30000001192092896,
+    "eatResultItem": {
+      "value": ""
+    },
     "isMeat": false,
     "isAlwaysEdible": false,
     "animation": "none"

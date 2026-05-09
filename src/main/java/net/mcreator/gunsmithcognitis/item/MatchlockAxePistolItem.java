@@ -13,6 +13,14 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.ai.attributes.AttributeModifier;
 import net.minecraft.world.entity.ai.attributes.Attribute;
+import net.minecraft.world.entity.EquipmentSlot;
+import com.google.common.collect.Multimap;
+import com.google.common.collect.ImmutableMultimap;
+import net.minecraft.tags.BlockTags;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.core.BlockPos;
+import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.InteractionResultHolder;
@@ -40,8 +48,11 @@ public class MatchlockAxePistolItem extends Item {
 	}
 
 	@Override
-	public float getDestroySpeed(ItemStack par1ItemStack, BlockState par2Block) {
-		return 0f;
+	public float getDestroySpeed(ItemStack stack, BlockState state) {
+		if (state.is(BlockTags.MINEABLE_WITH_AXE)) {
+			return 6.0f; // Iron tool mining speed
+		}
+		return super.getDestroySpeed(stack, state);
 	}
 
 	@Override
@@ -49,13 +60,15 @@ public class MatchlockAxePistolItem extends Item {
 		if (equipmentSlot == EquipmentSlot.MAINHAND) {
 			ImmutableMultimap.Builder<Attribute, AttributeModifier> builder = ImmutableMultimap.builder();
 			builder.putAll(super.getDefaultAttributeModifiers(equipmentSlot));
-			builder.put(Attributes.ATTACK_DAMAGE, new AttributeModifier(BASE_ATTACK_DAMAGE_UUID, "Item modifier", 7.5d, AttributeModifier.Operation.ADDITION));
-			builder.put(Attributes.ATTACK_SPEED, new AttributeModifier(BASE_ATTACK_SPEED_UUID, "Item modifier", -2.4, AttributeModifier.Operation.ADDITION));
+			
+			builder.put(Attributes.ATTACK_DAMAGE, new AttributeModifier(BASE_ATTACK_DAMAGE_UUID, "Weapon modifier", 6.5, AttributeModifier.Operation.ADDITION));
+			builder.put(Attributes.ATTACK_SPEED, new AttributeModifier(BASE_ATTACK_SPEED_UUID, "Weapon modifier", -3.6, AttributeModifier.Operation.ADDITION));
+			
 			return builder.build();
 		}
 		return super.getDefaultAttributeModifiers(equipmentSlot);
 	}
-
+	
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level level, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, level, list, flag);
@@ -76,8 +89,10 @@ public class MatchlockAxePistolItem extends Item {
 	}
 
 	@Override
-	public boolean hurtEnemy(ItemStack itemstack, LivingEntity entity, LivingEntity sourceentity) {
-		itemstack.hurtAndBreak(1, entity, i -> i.broadcastBreakEvent(EquipmentSlot.MAINHAND));
+	public boolean hurtEnemy(ItemStack itemstack, LivingEntity target, LivingEntity attacker) {
+		itemstack.hurtAndBreak(1, attacker, (e) -> {
+			e.broadcastBreakEvent(EquipmentSlot.MAINHAND);
+		});
 		return true;
 	}
 
@@ -121,5 +136,21 @@ public class MatchlockAxePistolItem extends Item {
 			}
 		}
 		return stack;
+	}
+
+	@Override
+	public boolean isCorrectToolForDrops(BlockState state) {
+		return state.is(BlockTags.MINEABLE_WITH_AXE) || super.isCorrectToolForDrops(state);
+	}
+
+	@Override
+	public boolean mineBlock(ItemStack stack, Level world, BlockState state, BlockPos pos, LivingEntity entity) {
+		// Damages the gun by 2 when breaking a block (standard axe behavior)
+		if (!world.isClientSide && state.getDestroySpeed(world, pos) != 0.0F) {
+			stack.hurtAndBreak(2, entity, (e) -> {
+				e.broadcastBreakEvent(EquipmentSlot.MAINHAND);
+			});
+		}
+		return true;
 	}
 }

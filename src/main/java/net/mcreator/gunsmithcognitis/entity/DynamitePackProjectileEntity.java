@@ -69,8 +69,9 @@ public class DynamitePackProjectileEntity extends AbstractArrow implements ItemS
 	public void tick() {
 		super.tick();
 		DynamitePackWhileProjectileFlyingTickProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ(), this);
-		if (this.inGround)
-			this.discard();
+		if (this.level() != null && !this.level().isClientSide()) {
+			DynamitePackWhileProjectileFlyingTickProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ(), this);
+		}
 	}
 
 	public static DynamitePackProjectileEntity shoot(Level world, LivingEntity entity, RandomSource source) {
@@ -102,5 +103,48 @@ public class DynamitePackProjectileEntity extends AbstractArrow implements ItemS
 		entity.level().addFreshEntity(entityarrow);
 		entity.level().playSound(null, entity.getX(), entity.getY(), entity.getZ(), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.tnt.primed")), SoundSource.PLAYERS, 1, 1f / (RandomSource.create().nextFloat() * 0.5f + 1));
 		return entityarrow;
+	}
+
+	@Override
+	protected void onHitBlock(net.minecraft.world.phys.BlockHitResult blockHitResult) {
+		
+		net.minecraft.core.Direction face = blockHitResult.getDirection();
+		net.minecraft.world.phys.Vec3 motion = this.getDeltaMovement();
+		
+		double bounceFactor = 0.2D; 
+		
+		double motX = motion.x;
+		double motY = motion.y;
+		double motZ = motion.z;
+		
+		if (face.getAxis() == net.minecraft.core.Direction.Axis.X) {
+			motX = -motX * bounceFactor;
+		} else if (face.getAxis() == net.minecraft.core.Direction.Axis.Y) {
+			motY = -motY * bounceFactor;
+			motX *= 0.6D;
+			motZ *= 0.6D;
+		} else if (face.getAxis() == net.minecraft.core.Direction.Axis.Z) {
+			motZ = -motZ * bounceFactor;
+		}
+		
+		if (Math.abs(motY) < 0.05D && face.getAxis() == net.minecraft.core.Direction.Axis.Y) {
+			motY = 0.0D;
+		} else {
+			this.playSound(net.minecraft.sounds.SoundEvents.STONE_HIT, 0.5F, 1.2F);
+		}
+		
+		this.setDeltaMovement(motX, motY, motZ);
+		
+		this.setPos(this.getX() + motX * 0.05, this.getY() + motY * 0.05, this.getZ() + motZ * 0.05);
+	}
+		
+	@Override
+	protected void onHitEntity(net.minecraft.world.phys.EntityHitResult entityHitResult) {
+
+		net.minecraft.world.phys.Vec3 motion = this.getDeltaMovement();
+		
+		this.setDeltaMovement(motion.x * -0.4D, motion.y * -0.4D, motion.z * -0.4D);
+		
+		this.playSound(net.minecraft.sounds.SoundEvents.STONE_HIT, 1.0F, 1.2F);
 	}
 }
